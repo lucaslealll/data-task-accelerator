@@ -4,7 +4,7 @@
 	</picture>
 	<br> <br>
 	<hr>
-	<img src="https://img.shields.io/badge/Version-1.0.0-.svg">
+	<img src="https://img.shields.io/badge/Version-1.0.0-23c4be.svg">
 	<img src="https://img.shields.io/badge/Python-3.10-23c4be.svg">
 	<img src="https://img.shields.io/badge/Code Style-Black-23c4be.svg">
 	<!-- <img src="https://img.shields.io/badge/Airflow-2.7.1-017CEE?logo=apache-airflow&logoColor=white"> -->
