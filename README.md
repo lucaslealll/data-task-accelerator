@@ -2,6 +2,7 @@
 	<source media="(prefers-color-scheme: dark)" srcset="assets/dta_white.svg">
 		<img alt="DTA Logo" src="assets/dta.svg" width="100%">
 	</picture>
+	<br> <br>
 	<hr>
 	<img src="https://img.shields.io/badge/Version-1.0.0-23c4be.svg">
 	<img src="https://img.shields.io/badge/By-lucaslealll-23c4be.svg">
@@ -13,9 +14,9 @@
 	<br>
 	<img src="https://img.shields.io/badge/License-MIT-green.svg">
 	<img src="https://img.shields.io/badge/Status-In Development-yellow">
-	<br>
-	<h1><b>dta: A Powerful Python Data Task Accelerator Toolkit</b></h3>
+	<br> <br>
 </div>
+<h1><b>dta: A Powerful Python Data Task Accelerator Toolkit</b></h3>
 
 
 **dta** provides dynamic functions aimed at data engineering, offering
