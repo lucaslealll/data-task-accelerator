@@ -4,16 +4,16 @@
 	</picture>
 	<br> <br>
 	<hr>
-	<img src="https://img.shields.io/badge/Version-1.0.0-23c4be.svg">
-	<img src="https://img.shields.io/badge/By-lucaslealll-23c4be.svg">
-	<img src="https://img.shields.io/badge/Python-3.10-23c4be.svg">
-	<img src="https://img.shields.io/badge/Code Style-Black-23c4be.svg">
+	<img src="https://img.shields.io/badge/Version-1.0.0-fff.svg">
+	<img src="https://img.shields.io/badge/Python-3.10-fff.svg">
+	<img src="https://img.shields.io/badge/Code Style-Black-fff.svg">
 	<!-- <img src="https://img.shields.io/badge/Airflow-2.7.1-017CEE?logo=apache-airflow&logoColor=white"> -->
 	<!-- <img src="https://img.shields.io/badge/PostgreSQL-13-336791?logo=postgresql&logoColor=white"> -->
 	<!-- <img src="https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white"> -->
 	<br>
-	<img src="https://img.shields.io/badge/License-MIT-green.svg">
-	<img src="https://img.shields.io/badge/Status-In Development-yellow">
+	<img src="https://img.shields.io/badge/License-MIT-BE23C4.svg">
+	<img src="https://img.shields.io/badge/Status-In Development-C4BE23">
+	<img src="https://img.shields.io/badge/By-lucaslealll-23c4be.svg">
 	<br> <br>
 </div>
 <h1><b>dta: A Powerful Python Data Task Accelerator Toolkit</b></h3>
