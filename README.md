@@ -1,65 +1,200 @@
-# **Data Task _Accelerator_** <img src="./imgs/dta_logo.png" width="150" align='right'>
+<div align="center">
+	<source media="(prefers-color-scheme: dark)" srcset="assets/dta_white.svg">
+		<img alt="DTA Logo" src="assets/dta.svg" width="100%">
+	</picture>
+	<hr>
+	<img src="https://img.shields.io/badge/Version-1.0.0-23c4be.svg">
+	<img src="https://img.shields.io/badge/By-lucaslealll-23c4be.svg">
+	<img src="https://img.shields.io/badge/Python-3.10-23c4be.svg">
+	<img src="https://img.shields.io/badge/Code Style-Black-23c4be.svg">
+	<!-- <img src="https://img.shields.io/badge/Airflow-2.7.1-017CEE?logo=apache-airflow&logoColor=white"> -->
+	<!-- <img src="https://img.shields.io/badge/PostgreSQL-13-336791?logo=postgresql&logoColor=white"> -->
+	<!-- <img src="https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white"> -->
+	<br>
+	<img src="https://img.shields.io/badge/License-MIT-green.svg">
+	<img src="https://img.shields.io/badge/Status-In Development-yellow">
+	<br>
+	<h1><b>dta: A Powerful Python Data Task Accelerator Toolkit</b></h3>
+</div>
 
-<!--
-[![PyPI Latest Release](https://img.shields.io/pypi/v/data-task-accelerator.svg)](https://pypi.org/project/data-task-accelerator)
-[![Downloads](https://static.pepy.tech/personalized-badge/data-task-accelerator?period=month&units=international_system&left_color=black&right_color=orange&left_text=PyPI%20downloads%20per%20month)](https://pepy.tech/project/data-task-accelerator)
--->
 
-[![Code style: black](https://img.shields.io/badge/%20Code%20Style-Black-%23484B6D?style=flat&labelColor=23c4be)](https://github.com/psf/black)
-[![Imports : isort](https://img.shields.io/badge/%20Imports-isort-%23484B6D?style=flat&labelColor=23c4be)](https://pycqa.github.io/isort/)
+**dta** provides dynamic functions aimed at data engineering, offering
+a wide range of collections to accelerate development. It has a comprehensive and
+flexible ecosystem of **tools**, **libraries**, and **community resources**,
+allowing data engineers to build and deploy applications with ease.
 
-This library simplifies working with data through a cluster of functions that accelerate developer productivity. Whether in the fields of data processing, process automation, database management, among others.
+**dta** was originalvly developed to facilitate and streamline the development of ETL scripts. However, the framework is versatile enough to be used in other areas.
 
-## Installing
+- [Install](#install)
+- [Features \& Functions](#features--functions)
+		- [*Dataframes*](#dataframes)
+		- [*Google*](#google)
+			- [*BigQuery*](#bigquery)
+			- [*Google Sheets*](#google-sheets)
+		- [*Messengers \& Alerts*](#messengers--alerts)
+		- [*Headers \& Constants*](#headers--constants)
+		- [*Log Messages*](#log-messages)
+		- [*System Utilities*](#system-utilities)
+		- [*Web Scrapping*](#web-scrapping)
+			- [*Selenium*](#selenium)
+- [Authors](#authors)
+- [Contributing](#contributing)
+		- [Current Maintainers](#current-maintainers)
+		- [References](#references)
 
-When the project is complete, you can install it using `pip`.
+# Install
+> [!IMPORTANT]
+> It's essential to **upgrade pip** to the latest version to ensure compatibility with the library.
+> ```sh
+> # Requires the latest pip
+> pip install --upgrade pip
+> ```
 
+Install the stable version of **dta** directly from the GitHub repository.
+
+```sh
+# Install
+pip install git+https://github.com/lucaslealll/data-task-accelerator.git
+
+# Upgrade
+pip install --upgrade git+https://github.com/lucaslealll/data-task-accelerator.git
 ```
-$ pip install data-task-accelerator
-```
 
-For more information on setting up your Python development environment, please refer to [Python Development Environment Setup Guide](https://cloud.google.com/python/setup).
+> [!TIP]
+>
+> **If you don't have a TOKEN, use the command below:**
+> ```
+> pip install git+https://github.com/lucaslealll/data-task-accelerator.git
+> ```
 
-## Extras
+# Features & Functions
 
-Nothing for now.
+### *Dataframes*
+Provides methods to quickly adjust dataframes.
 
-### Supported Python Versions
+> [!NOTE]
+> ```py
+> from dta.data.df_normalizer import <FUNCTION>
+> ```
 
-> Python >= 3.10.6
+- [`norm_str_num_values()`](docs/data.md#norm_str_num_values): Converts string-based number values to their numerical equivalents
+- [`norm_rename_columns()`](docs/data.md#norm_rename_columns): Renames DataFrame columns based on a normalization function
 
-### Unsupported Python Versions
+---
 
-> Python == 3.6
+### *Google*
+Provides methods to interact with Google resources sucha as Sheets and BigQuery, to boost data manipulation.
 
-### Used Python Libraries Versions
+#### *BigQuery*
 
-To install project running requirements run
+> [!NOTE]
+> ```py
+> from dta.google.big_query import <FUNCTION>
+> ```
 
-```py
-pip install requirements.txt
-```
+- [`sync_dtypes_with_table()`](docs/google.md#sync_dtypes_with_bigquery_table): Synchronize the data types of a Pandas DataFrame with a BigQuery table's schema
+- [`quick_query()`](docs/google.md#quick_query): Executes a BigQuery SQL query and returns the result as a Pandas DataFrame
 
-## Documentation
+#### *Google Sheets*
 
-The Data Task Accelerator has usage and reference documentation [in the not too distant future](https://youtu.be/dQw4w9WgXcQ?t=85).
+> [!NOTE]
+> ```py
+> from dta.google.sheets import <FUNCTION>
+> ```
 
-## Current Maintainers
+- [`gsheets_get_worksheet()`](docs/google.md#gsheets_get_worksheet): Import a worksheet object from gsheets
+- [`gsheets_get_worksheet_df()`](docs/google.md#gsheets_get_worksheet_df): Import a worksheet object from gsheets as a pandas dataframe
+- [`gsheets_dedup()`](docs/google.md#gsheets_dedup): Returns dataframe where the column passed as parameter is considered the core set for duplicate data row remover
+- [`gsheets_worksheet_next_available_row()`](docs/google.md#gsheets_worksheet_next_available_row): Return the ID of the next cell into which data can be entered
+- [`gsheets_update()`](docs/google.md#gsheets_update): Update a Google Sheets spreadsheet from a reference column
 
--   https://linkedin.com/in/lucasomarandradeleal
+---
 
-## Authors
+### *Messengers & Alerts*
+Provides methods to send alerts and informations via email from just a few lines of code.
 
--   [@lucasoal](https://github.com/lucasoal) (Lucas Omar)
+> [!NOTE]
+> ```py
+> from dta.messenger.gmail import <FUNCTION>
+> ```
 
-## Contributing
+- [`send_alert_email()`](docs/messenger.md#send_alert_email): Send an email (Types: error, tip, note, important or warning) with main info about it
 
+---
+
+### *Headers & Constants*
+Defines constants and functions for managing ETL (Extract, Transform, Load) processes, date and time formatting, logging levels, API scopes, database connections, and various data operations.
+
+> [!NOTE]
+> ```py
+> from dta.header.manager import <ITEM>
+> ```
+
+[`Text Constants for ETL Phases` • `Google Sheets API Scope` • `Date and Time` • `Paths and File Locations` • `Database Connection` • `Data Sources` • `Miscellaneous Constants` • `Logging Levels` • `Email Configuration` • `ETL Process Status` • `Data Formats and Locations` • `ETL Configuration` • `Error Handling` • `Throttling and Rate Limits` • `Security` • `Data Export and Serialization` • `File Encoding` • `Data Validation` • `AWS S3 Paths` • `Encryption` • `Data Export Formats` • `Data Backup` • `Data Sampling`](docs/header.md)
+
+---
+
+### *Log Messages*
+This Python file defines error and success messages, log levels, and ETL process statuses. These constants standardize messaging and facilitate debugging and monitoring of the system.
+
+> [!NOTE]
+> ```py
+> from dta.logger.manager import <LOG_MESSAGE>
+> ```
+
+[`Error`](docs/logger.md#error) • [`Success`](docs/logger.md#success) • [`ETL Process Status`](docs/logger.md#etl-process-status)
+
+---
+
+### *System Utilities*
+Provides several methods to use system functionality from just a few lines of code.
+
+> [!NOTE]
+> ```py
+> from dta.system.linux_utils import <FUNCTION>
+> ```
+
+- [`delete_file()`](docs/system.md#delete_file): Deletes any specified file
+- [`rename_file()`](docs/system.md#rename_file): Renames a file
+- [`search_file()`](docs/system.md#search_file): Searches for the existence of a file
+- [`progress_bar()`](docs/system.md#progress_bar): Waits for the specified number of seconds with an optional progress bar
+- [`get_system_info()`](docs/system.md#get_system_info): Retrieves system information using the 'uname -a' command
+
+---
+
+### *Web Scrapping*
+Provides a set of tools for automating browser interactions, allowing you to perform web scraping tasks with minimal code.
+
+#### *Selenium*
+
+> [!NOTE]
+> ```py
+> from dta.scrapping.selenium import <FUNCTION>
+> ```
+
+- [`start_browser()`](docs/scrapping.md#start_browser): Initialize a Chrome browser using Selenium
+- [`export_cookies()`](docs/scrapping.md#export_cookies): Export cookies from browser
+- [`import_cookies()`](docs/scrapping.md#import_cookies): Import cookies to browser
+- [`check_element()`](docs/scrapping.md#check_element): Function to check if an element exists on a web page based on the provided XPath
+- [`esc_or_click()`](docs/scrapping.md#esc_or_click): Function to either press the ESC key or click on an element on a web page
+
+# Authors
+-   [@lucaslealll](https://github.com/lucaslealll)
+
+# Contributing
 Contributions to this library are always welcome and highly encouraged.
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for more information on how to get started.
 
-## References
+### Current Maintainers
+-	...
 
--   https://python.plainenglish.io/create-a-python-trading-library-719a471bb367
--   https://medium.com/analytics-vidhya/how-to-create-a-python-library-7d5aea80cc3f
--   https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest
+---
+---
+
+### References
+- WHITTLE, Michael. How to create a Python trading library: My first Python library using EOD Historical Data (EODHD APIs). Medium - Plain English. Available at: https://python.plainenglish.io/create-a-python-trading-library-719a471bb367.
+
+- EISINGA, Kia. How to create a Python library. Medium - Analytics Vidhya. Available at: https://medium.com/analytics-vidhya/how-to-create-a-python-library-7d5aea80cc3f.
+
+- GATHUKU, Kevin Ndung'u. Testing Python applications with Pytest. Semaphore. April 3, 2024. Available at: https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest.
