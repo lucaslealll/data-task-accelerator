@@ -11,7 +11,7 @@ Here are some guidelines for hacking on `data-tastk-accelerator`.
 
 A few notes on making changes to `data-tastk-accelerator`.
 
--   If you've added a new feature or modified an existing feature, be sure to add or update any applicable documentation in docstrings and in the documentation (in `docs/`). You can re-generate the reference documentation using `nox -s docgen`.
+-   If you've added a new feature or modified an existing feature, be sure to add or update any applicable documentation in docstrings and in the documentation (in `doc/`). You can re-generate the reference documentation using `nox -s docgen`.
 
 -   The change must work fully on the following Python versions: 3.6, 3.7, 3.8, 3.9, 3.10 across macOS, Linux, and Windows.
 

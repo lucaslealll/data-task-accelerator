@@ -79,8 +79,8 @@ Provides methods to quickly adjust dataframes.
 > from dta.data.df_normalizer import <FUNCTION>
 > ```
 
-- [`norm_str_num_values()`](docs/data.md#norm_str_num_values): Converts string-based number values to their numerical equivalents
-- [`norm_rename_columns()`](docs/data.md#norm_rename_columns): Renames DataFrame columns based on a normalization function
+- [`norm_str_num_values()`](doc/data.md#norm_str_num_values): Converts string-based number values to their numerical equivalents
+- [`norm_rename_columns()`](doc/data.md#norm_rename_columns): Renames DataFrame columns based on a normalization function
 
 ---
 
@@ -94,8 +94,8 @@ Provides methods to interact with Google resources sucha as Sheets and BigQuery,
 > from dta.google.big_query import <FUNCTION>
 > ```
 
-- [`sync_dtypes_with_table()`](docs/google.md#sync_dtypes_with_bigquery_table): Synchronize the data types of a Pandas DataFrame with a BigQuery table's schema
-- [`quick_query()`](docs/google.md#quick_query): Executes a BigQuery SQL query and returns the result as a Pandas DataFrame
+- [`sync_dtypes_with_table()`](doc/google.md#sync_dtypes_with_bigquery_table): Synchronize the data types of a Pandas DataFrame with a BigQuery table's schema
+- [`quick_query()`](doc/google.md#quick_query): Executes a BigQuery SQL query and returns the result as a Pandas DataFrame
 
 #### *Google Sheets*
 
@@ -104,11 +104,11 @@ Provides methods to interact with Google resources sucha as Sheets and BigQuery,
 > from dta.google.sheets import <FUNCTION>
 > ```
 
-- [`gsheets_get_worksheet()`](docs/google.md#gsheets_get_worksheet): Import a worksheet object from gsheets
-- [`gsheets_get_worksheet_df()`](docs/google.md#gsheets_get_worksheet_df): Import a worksheet object from gsheets as a pandas dataframe
-- [`gsheets_dedup()`](docs/google.md#gsheets_dedup): Returns dataframe where the column passed as parameter is considered the core set for duplicate data row remover
-- [`gsheets_worksheet_next_available_row()`](docs/google.md#gsheets_worksheet_next_available_row): Return the ID of the next cell into which data can be entered
-- [`gsheets_update()`](docs/google.md#gsheets_update): Update a Google Sheets spreadsheet from a reference column
+- [`gsheets_get_worksheet()`](doc/google.md#gsheets_get_worksheet): Import a worksheet object from gsheets
+- [`gsheets_get_worksheet_df()`](doc/google.md#gsheets_get_worksheet_df): Import a worksheet object from gsheets as a pandas dataframe
+- [`gsheets_dedup()`](doc/google.md#gsheets_dedup): Returns dataframe where the column passed as parameter is considered the core set for duplicate data row remover
+- [`gsheets_worksheet_next_available_row()`](doc/google.md#gsheets_worksheet_next_available_row): Return the ID of the next cell into which data can be entered
+- [`gsheets_update()`](doc/google.md#gsheets_update): Update a Google Sheets spreadsheet from a reference column
 
 ---
 
@@ -120,7 +120,7 @@ Provides methods to send alerts and informations via email from just a few lines
 > from dta.messenger.gmail import <FUNCTION>
 > ```
 
-- [`send_alert_email()`](docs/messenger.md#send_alert_email): Send an email (Types: error, tip, note, important or warning) with main info about it
+- [`send_alert_email()`](doc/messenger.md#send_alert_email): Send an email (Types: error, tip, note, important or warning) with main info about it
 
 ---
 
@@ -132,7 +132,7 @@ Defines constants and functions for managing ETL (Extract, Transform, Load) proc
 > from dta.header.manager import <ITEM>
 > ```
 
-[`Text Constants for ETL Phases` • `Google Sheets API Scope` • `Date and Time` • `Paths and File Locations` • `Database Connection` • `Data Sources` • `Miscellaneous Constants` • `Logging Levels` • `Email Configuration` • `ETL Process Status` • `Data Formats and Locations` • `ETL Configuration` • `Error Handling` • `Throttling and Rate Limits` • `Security` • `Data Export and Serialization` • `File Encoding` • `Data Validation` • `AWS S3 Paths` • `Encryption` • `Data Export Formats` • `Data Backup` • `Data Sampling`](docs/header.md)
+[`Text Constants for ETL Phases` • `Google Sheets API Scope` • `Date and Time` • `Paths and File Locations` • `Database Connection` • `Data Sources` • `Miscellaneous Constants` • `Logging Levels` • `Email Configuration` • `ETL Process Status` • `Data Formats and Locations` • `ETL Configuration` • `Error Handling` • `Throttling and Rate Limits` • `Security` • `Data Export and Serialization` • `File Encoding` • `Data Validation` • `AWS S3 Paths` • `Encryption` • `Data Export Formats` • `Data Backup` • `Data Sampling`](doc/header.md)
 
 ---
 
@@ -144,7 +144,7 @@ This Python file defines error and success messages, log levels, and ETL process
 > from dta.logger.manager import <LOG_MESSAGE>
 > ```
 
-[`Error`](docs/logger.md#error) • [`Success`](docs/logger.md#success) • [`ETL Process Status`](docs/logger.md#etl-process-status)
+[`Error`](doc/logger.md#error) • [`Success`](doc/logger.md#success) • [`ETL Process Status`](doc/logger.md#etl-process-status)
 
 ---
 
@@ -156,11 +156,11 @@ Provides several methods to use system functionality from just a few lines of co
 > from dta.system.linux_utils import <FUNCTION>
 > ```
 
-- [`delete_file()`](docs/system.md#delete_file): Deletes any specified file
-- [`rename_file()`](docs/system.md#rename_file): Renames a file
-- [`search_file()`](docs/system.md#search_file): Searches for the existence of a file
-- [`progress_bar()`](docs/system.md#progress_bar): Waits for the specified number of seconds with an optional progress bar
-- [`get_system_info()`](docs/system.md#get_system_info): Retrieves system information using the 'uname -a' command
+- [`delete_file()`](doc/system.md#delete_file): Deletes any specified file
+- [`rename_file()`](doc/system.md#rename_file): Renames a file
+- [`search_file()`](doc/system.md#search_file): Searches for the existence of a file
+- [`progress_bar()`](doc/system.md#progress_bar): Waits for the specified number of seconds with an optional progress bar
+- [`get_system_info()`](doc/system.md#get_system_info): Retrieves system information using the 'uname -a' command
 
 ---
 
@@ -174,11 +174,11 @@ Provides a set of tools for automating browser interactions, allowing you to per
 > from dta.scrapping.selenium import <FUNCTION>
 > ```
 
-- [`start_browser()`](docs/scrapping.md#start_browser): Initialize a Chrome browser using Selenium
-- [`export_cookies()`](docs/scrapping.md#export_cookies): Export cookies from browser
-- [`import_cookies()`](docs/scrapping.md#import_cookies): Import cookies to browser
-- [`check_element()`](docs/scrapping.md#check_element): Function to check if an element exists on a web page based on the provided XPath
-- [`esc_or_click()`](docs/scrapping.md#esc_or_click): Function to either press the ESC key or click on an element on a web page
+- [`start_browser()`](doc/scrapping.md#start_browser): Initialize a Chrome browser using Selenium
+- [`export_cookies()`](doc/scrapping.md#export_cookies): Export cookies from browser
+- [`import_cookies()`](doc/scrapping.md#import_cookies): Import cookies to browser
+- [`check_element()`](doc/scrapping.md#check_element): Function to check if an element exists on a web page based on the provided XPath
+- [`esc_or_click()`](doc/scrapping.md#esc_or_click): Function to either press the ESC key or click on an element on a web page
 
 # Authors
 -   [@lucaslealll](https://github.com/lucaslealll)
