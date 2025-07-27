@@ -1,31 +1,23 @@
 import io
-
 from setuptools import find_packages, setup
 
-with io.open("README.md", "r") as fh:
+with io.open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
+    name="data_task_accelerator",
+    version="1.0.0",
     author="Lucas Leal",
     author_email="lucas.o.a.l.zst@gmail.com",
     description="Dynamic data eng. functions to accelerate development and coding",
-    include_package_data=True,
-    keywords="data task accelerator functions gspread datetime gsheets email selenium cookies sleep wait",
-    license="MIT",
-    long_description=("README.md"),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    name="data_task_accelerator",
-    # namespace_packages=("scripts",),
-    package_data={"dta": [".src/*"]},
-    packages=find_packages(exclude=("tests*", "system_tests*")),
-    packages=find_packages(include=["data_task_accelerator"]),
-    python_requires=">=3.10",
-    setup_requires=["pytest-runner"],
-    test_suite="tests",
-    tests_require=["pytest==7.2.1"],
     url="https://github.com/lucasoal/data-task-accelerator",
-    version="1.0.0",
+    license="MIT",
+    packages=find_packages(include=["dta", "dta.*"]),
+    include_package_data=True,
+    package_data={"dta": ["src/*"]},
+    python_requires=">=3.10",
     install_requires=[
         "google-api-core==2.22.0",
         "google-auth==2.35.0",
@@ -47,8 +39,17 @@ setup(
         "requests==2.32.3",
         "selenium==4.7.2",
     ],
+    setup_requires=["pytest-runner"],
+    tests_require=["pytest==7.2.1"],
+    test_suite="tests",
+    keywords="data task accelerator functions gspread datetime gsheets email selenium cookies sleep wait",
     classifiers=[
+        "Development Status :: 5 - Production/Stable",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.10",
+        "Operating System :: OS Independent",
+        "Topic :: Software Development :: Libraries",
     ],
 )
