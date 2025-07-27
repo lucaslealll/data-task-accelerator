@@ -1,7 +1,7 @@
 <div align="center">
 	<picture>
-	<source media="(prefers-color-scheme: dark)" srcset="assets/dta_white.svg">
-		<img alt="DTA Logo" src="assets/dta.svg" width="100%">
+	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/lucaslealll/data-task-accelerator/blob/main/assets/dta_white.svg">
+		<img alt="DTA Logo" src="https://github.com/lucaslealll/data-task-accelerator/blob/main/assets/dta.svg" width="100%">
 	</picture>
 	<br> <br>
 	<hr>
