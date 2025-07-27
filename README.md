@@ -1,7 +1,7 @@
 <div align="center">
 	<picture>
-	<source media="(prefers-color-scheme: dark)" srcset="https://github.com/lucaslealll/data-task-accelerator/blob/main/assets/dta_white.svg">
-		<img alt="DTA Logo" src="https://github.com/lucaslealll/data-task-accelerator/blob/main/assets/dta.svg" width="100%">
+	<source media="(prefers-color-scheme: dark)" srcset="assets/dta_white.svg">
+		<img alt="DTA Logo" src="assets/dta.svg" width="100%">
 	</picture>
 	<br> <br>
 	<hr>
@@ -29,20 +29,20 @@ allowing data engineers to build and deploy applications with ease.
 
 - [Install](#install)
 - [Features \& Functions](#features--functions)
-		- [*Dataframes*](#dataframes)
-		- [*Google*](#google)
-			- [*BigQuery*](#bigquery)
+	- [*Dataframes*](#dataframes)
+	- [*Google*](#google)
+		- [*BigQuery*](#bigquery)
 			- [*Google Sheets*](#google-sheets)
-		- [*Messengers \& Alerts*](#messengers--alerts)
-		- [*Headers \& Constants*](#headers--constants)
-		- [*Log Messages*](#log-messages)
-		- [*System Utilities*](#system-utilities)
-		- [*Web Scrapping*](#web-scrapping)
-			- [*Selenium*](#selenium)
+	- [*Messengers \& Alerts*](#messengers--alerts)
+	- [*Headers \& Constants*](#headers--constants)
+	- [*Log Messages*](#log-messages)
+	- [*System Utilities*](#system-utilities)
+	- [*Web Scrapping*](#web-scrapping)
+		- [*Selenium*](#selenium)
 - [Authors](#authors)
 - [Contributing](#contributing)
-		- [Current Maintainers](#current-maintainers)
-		- [References](#references)
+	- [Current Maintainers](#current-maintainers)
+	- [References](#references)
 
 # Install
 > [!IMPORTANT]
