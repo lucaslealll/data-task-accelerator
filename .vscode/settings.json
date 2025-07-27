@@ -4,7 +4,7 @@
         "*.ipynb": "jupyter.notebook.ipynb"
     },
     "[python]": {
-        "editor.defaultFormatter": "ms-python.python",
+        "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnType": true,
         "editor.wordWrap": "wordWrapColumn",
         "editor.wordWrapColumn": 120,
