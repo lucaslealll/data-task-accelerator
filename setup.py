@@ -5,8 +5,8 @@ with io.open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="data_task_accelerator",
-    version="1.0.0",
+    name="quati_tookit",
+    version="1.1.0",
     author="Lucas Leal",
     author_email="lucas.o.a.l.zst@gmail.com",
     description="Dynamic data eng. functions to accelerate development and coding",
@@ -42,7 +42,7 @@ setup(
     setup_requires=["pytest-runner"],
     tests_require=["pytest==7.2.1"],
     test_suite="tests",
-    keywords="data task accelerator functions gspread datetime gsheets email selenium cookies sleep wait",
+    keywords="quick actions toolkit functions gspread datetime gsheets email selenium cookies sleep wait",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
