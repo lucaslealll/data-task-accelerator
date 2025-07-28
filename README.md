@@ -1,7 +1,7 @@
 <div align="center">
 	<picture>
 	<!-- <source media="(prefers-color-scheme: dark)" srcset="assets/quati_white.png"> -->
-	<source media="(prefers-color-scheme: dark)" srcset="assets/quati.png">
+	<source media="(prefers-color-scheme: dark)" srcset="assets/quati_white.png">
 		<img alt="DTA Logo" src="assets/quati.png" width="100%">
 	</picture>
 	<br><br><br>
