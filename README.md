@@ -8,7 +8,7 @@
 	<hr>
 </div>
 
-<h1>quati: A python <u>Quick Actions Toolkit</u> for Data Engeneering</h1>
+<h1>quati: A python <u>Quick Actions Toolkit</u> for data engeneering</h1>
 
 
 <img src="https://img.shields.io/badge/Version-1.0.0-fff.svg"> <img src="https://img.shields.io/badge/Code Style-Black-fff.svg"> <img src="https://img.shields.io/badge/Python-3.10-fff?logo=python&logoColor=white">
