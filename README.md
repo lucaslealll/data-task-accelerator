@@ -29,20 +29,22 @@ allowing data engineers to build and deploy applications with ease.
 
 - [Install](#install)
 - [Features \& Functions](#features--functions)
-	- [*Dataframes*](#dataframes)
-	- [*Google*](#google)
-		- [*BigQuery*](#bigquery)
+		- [*Dataframes*](#dataframes)
+		- [*Google*](#google)
+			- [*BigQuery*](#bigquery)
 			- [*Google Sheets*](#google-sheets)
-	- [*Messengers \& Alerts*](#messengers--alerts)
-	- [*Headers \& Constants*](#headers--constants)
-	- [*Log Messages*](#log-messages)
-	- [*System Utilities*](#system-utilities)
-	- [*Web Scrapping*](#web-scrapping)
-		- [*Selenium*](#selenium)
+		- [*Messengers \& Alerts*](#messengers--alerts)
+		- [*Headers \& Constants*](#headers--constants)
+		- [*Log Messages*](#log-messages)
+		- [*System Utilities*](#system-utilities)
+		- [*Web Scrapping*](#web-scrapping)
+			- [*Selenium*](#selenium)
 - [Authors](#authors)
 - [Contributing](#contributing)
-	- [Current Maintainers](#current-maintainers)
-	- [References](#references)
+		- [Current Maintainers](#current-maintainers)
+		- [References](#references)
+
+<br> <br> 
 
 # Install
 > [!IMPORTANT]
@@ -68,6 +70,8 @@ pip install --upgrade git+https://github.com/lucaslealll/data-task-accelerator.g
 > ```
 > pip install git+https://github.com/lucaslealll/data-task-accelerator.git
 > ```
+
+<br> <br>
 
 # Features & Functions
 
@@ -180,8 +184,12 @@ Provides a set of tools for automating browser interactions, allowing you to per
 - [`check_element()`](doc/scrapping.md#check_element): Function to check if an element exists on a web page based on the provided XPath
 - [`esc_or_click()`](doc/scrapping.md#esc_or_click): Function to either press the ESC key or click on an element on a web page
 
+<br> <br>
+
 # Authors
 -   [@lucaslealll](https://github.com/lucaslealll)
+
+<br> <br>
 
 # Contributing
 Contributions to this library are always welcome and highly encouraged.
