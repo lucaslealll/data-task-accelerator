@@ -24,9 +24,9 @@ allowing data engineers to build and deploy applications with ease.
 - [Table of Contents](#table-of-contents)
 - [Main Features](#main-features)
 - [Where to get it / Install](#where-to-get-it--install)
+- [Documentation](#documentation)
 - [Dependencies](#dependencies)
 - [License](#license)
-- [Documentation](#documentation)
 - [References](#references)
 
 ## Main Features
@@ -70,6 +70,9 @@ The source code is currently hosted on GitHub at: https://github.com/lucaslealll
 pip install git+https://github.com/lucaslealll/data-task-accelerator.git
 ```
 
+## Documentation
+The official documentation is here [Documentation](doc/DOCUMENTATION).
+
 ## Dependencies
 - [NumPy](https://numpy.org/)
 - [Pandas](https://pandas.pydata.org/)
@@ -80,9 +83,6 @@ See the [full installation instructions](INSTALLATION) for minimum supported ver
 
 ## License
 [MIT](LICENSE)
-
-## Documentation
-The official documentation is here [Documentation](doc/__doc__.md).
 
 ## References
 - WHITTLE, Michael. How to create a Python trading library: My first Python library using EOD Historical Data (EODHD APIs). Medium - Plain English. Available at: https://python.plainenglish.io/create-a-python-trading-library-719a471bb367.
