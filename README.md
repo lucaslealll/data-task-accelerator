@@ -71,7 +71,7 @@ pip install git+https://github.com/lucaslealll/data-task-accelerator.git
 ```
 
 ## Documentation
-The official documentation is here [Documentation](doc/DOCUMENTATION).
+The official documentation is here [Documentation](doc/DOCUMENTATION.md).
 
 ## License
 [MIT](LICENSE)
@@ -82,7 +82,7 @@ The official documentation is here [Documentation](doc/DOCUMENTATION).
 - [Selenium](https://www.selenium.dev/)
 - [gspread](https://docs.gspread.org/)
 
-See the [full installation instructions](INSTALLATION) for minimum supported versions of required, recommended and optional dependencies.
+See the [full installation instructions](INSTALLATION.md) for minimum supported versions of required, recommended and optional dependencies.
 
 ## References
 - WHITTLE, Michael. How to create a Python trading library: My first Python library using EOD Historical Data (EODHD APIs). Medium - Plain English. Available at: https://python.plainenglish.io/create-a-python-trading-library-719a471bb367.
