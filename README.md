@@ -8,13 +8,9 @@
 </div>
 
 <h1>dta: A Powerful Python Data Task Accelerator Toolkit</h1>
-<img src="https://img.shields.io/badge/Version-1.0.0-fff.svg">
-<img src="https://img.shields.io/badge/Code Style-Black-fff.svg">
-<img src="https://img.shields.io/badge/Python-3.10-fff?logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/Version-1.0.0-fff.svg"> <img src="https://img.shields.io/badge/Code Style-Black-fff.svg"> <img src="https://img.shields.io/badge/Python-3.10-fff?logo=python&logoColor=white">
 <br>
-<img src="https://img.shields.io/badge/License-MIT-BE23C4.svg">
-<img src="https://img.shields.io/badge/Status-In Development-C4BE23?logo=github&logoColor=white">
-<img src="https://img.shields.io/badge/Author-lucaslealll-23c4be?logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/License-MIT-BE23C4.svg"> <img src="https://img.shields.io/badge/Status-In Development-C4BE23?logo=github&logoColor=white"> <img src="https://img.shields.io/badge/Author-lucaslealll-23c4be?logo=github&logoColor=white"> 
 
 ## What is it?
 **dta** provides dynamic functions aimed at data engineering, offering
