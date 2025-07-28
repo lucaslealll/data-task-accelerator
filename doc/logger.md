@@ -4,7 +4,7 @@ This Python file defines error and success messages, log levels, and ETL process
 
 > [!NOTE]
 > ```py
-> from dta.logger.manager import <LOG_MESSAGE>
+> from quati.logger.manager import <LOG_MESSAGE>
 > ```
 
 - [`Error`](logger.md#error)

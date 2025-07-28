@@ -7,7 +7,7 @@ from email.mime.text import MIMEText
 from importlib.resources import files
 
 # Path to logo image used in the email
-LOGO_IMG = files("assets").joinpath("dta.gif")
+LOGO_IMG = files("assets").joinpath("quati.gif")
 
 # SMTP configuration
 SMTP_PORT = 587
@@ -90,7 +90,7 @@ class EmailAlert:
         html_head = f"""
             <head>
                 <meta charset="UTF-8">
-                <title>dta Email</title>
+                <title>quati Email</title>
                 <style>
                     body {{font-family: Arial, sans-serif; background: #f4f4f4; font-size: 12px;}}
                     .container {{width: 80%; margin: 20px auto; padding: 20px; border-radius: 25px; background: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.1);}}

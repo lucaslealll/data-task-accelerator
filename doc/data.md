@@ -4,7 +4,7 @@ Provides methods to quickly adjust dataframes.
 
 > [!NOTE]
 > ```py
-> from dta.data.df_normalizer import <FUNCTION>
+> from quati.data.df_normalizer import <FUNCTION>
 > ```
 
 - [`norm_str_num_values()`](data.md#norm_str_num_values): Converts string-based number values to their numerical equivalents

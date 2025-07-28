@@ -4,7 +4,7 @@ Provides several methods to use system functionality from just a few lines of co
 
 > [!NOTE]
 > ```py
-> from dta.system.linux_utils import <FUNCTION>
+> from quati.system.linux_utils import <FUNCTION>
 > ```
 
 - [`delete_file()`](system.md#delete_file): Deletes any specified file

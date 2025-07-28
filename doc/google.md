@@ -4,7 +4,7 @@ Provides methods to interact with Google resources sucha as Sheets and BigQuery,
 
 > [!NOTE]
 > ```py
-> from dta.google.big_query import <FUNCTION>
+> from quati.google.big_query import <FUNCTION>
 > ```
 
 - [`sync_dtypes_with_table()`](google.md#sync_dtypes_with_bigquery_table): Synchronize the data types of a Pandas DataFrame with a BigQuery table's schema
@@ -12,7 +12,7 @@ Provides methods to interact with Google resources sucha as Sheets and BigQuery,
 
 > [!NOTE]
 > ```py
-> from dta.google.sheets import <FUNCTION>
+> from quati.google.sheets import <FUNCTION>
 > ```
 
 - [`gsheets_get_worksheet()`](google.md#gsheets_get_worksheet): Import a worksheet object from gsheets

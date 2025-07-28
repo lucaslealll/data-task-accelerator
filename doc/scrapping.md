@@ -4,7 +4,7 @@ Provides a set of tools for automating browser interactions, allowing you to per
 
 > [!NOTE]
 > ```py
-> from dta.scrapping.selenium import <FUNCTION>
+> from quati.scrapping.selenium import <FUNCTION>
 > ```
 
 - [`start_browser()`](scrapping.md#start_browser): Initialize a Chrome browser using Selenium

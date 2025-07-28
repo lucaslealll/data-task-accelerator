@@ -1,20 +1,21 @@
 <div align="center">
 	<picture>
-	<source media="(prefers-color-scheme: dark)" srcset="assets/dta_white.svg">
-		<img alt="DTA Logo" src="assets/dta.svg" width="100%">
+	<source media="(prefers-color-scheme: dark)" srcset="assets/quati_white.png">
+		<img alt="DTA Logo" src="assets/quati.png" width="100%">
 	</picture>
 	<br><br><br>
 	<hr>
 </div>
 
-<h1>dta: A Powerful Python Data Task Accelerator Toolkit</h1>
+<h1>quati: A python <u>Quick Actions Toolkit</u> for Data Engeneering</h1>
+
 
 <img src="https://img.shields.io/badge/Version-1.0.0-fff.svg"> <img src="https://img.shields.io/badge/Code Style-Black-fff.svg"> <img src="https://img.shields.io/badge/Python-3.10-fff?logo=python&logoColor=white">
 <br>
 <img src="https://img.shields.io/badge/License-MIT-BE23C4.svg"> <img src="https://img.shields.io/badge/Status-In Development-C4BE23?logo=github&logoColor=white"> <img src="https://img.shields.io/badge/Author-lucaslealll-23c4be?logo=github&logoColor=white">
 
 ## What is it?
-**dta** provides dynamic functions aimed at data engineering, offering
+**quati** provides dynamic functions aimed at data engineering, offering
 a wide range of collections to accelerate development. It has a comprehensive and
 flexible ecosystem of **tools**, **libraries**, and **community resources**,
 allowing data engineers to build and deploy applications with ease.
@@ -54,7 +55,7 @@ Here are just a few of the things that pandas does well:
 - [`esc_or_click()`](doc/scrapping.md#esc_or_click): Function to either press the ESC key or click on an element on a web page
 
 ## Where to get it / Install
-The source code is currently hosted on GitHub at: https://github.com/lucaslealll/data-task-accelerator
+The source code is currently hosted on GitHub at: https://github.com/lucaslealll/quati-toolkit
 
 <!-- 
 > [!IMPORTANT]
@@ -67,7 +68,7 @@ The source code is currently hosted on GitHub at: https://github.com/lucaslealll
 
 ```sh
 # GitHub
-pip install git+https://github.com/lucaslealll/data-task-accelerator.git
+pip install git+https://github.com/lucaslealll/quati-toolkit.git
 ```
 
 ## Documentation

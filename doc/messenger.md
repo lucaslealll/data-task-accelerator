@@ -4,7 +4,7 @@ Provides a class to send styled alerts and informational emails from just a few 
 
 > [!NOTE]
 > ```py
-> from dta.messenger.gmail import EmailAlert
+> from quati.messenger.gmail import EmailAlert
 > ```
 
 - [`EmailAlert`](#emailalert-class): Class to send HTML alert emails (types: error, tip, note, important, warning) with detailed context, attachments and metadata.

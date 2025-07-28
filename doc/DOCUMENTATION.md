@@ -5,7 +5,7 @@ Provides methods to quickly adjust dataframes.
 
 > [!NOTE]
 > ```py
-> from dta.data.df_normalizer import <FUNCTION>
+> from quati.data.df_normalizer import <FUNCTION>
 > ```
 
 - [`norm_str_num_values()`](data.md#norm_str_num_values): Converts string-based number values to their numerical equivalents
@@ -18,7 +18,7 @@ Provides methods to interact with Google resources sucha as Sheets and BigQuery,
 
 > [!NOTE]
 > ```py
-> from dta.google.big_query import <FUNCTION>
+> from quati.google.big_query import <FUNCTION>
 > ```
 
 - [`sync_dtypes_with_table()`](google.md#sync_dtypes_with_bigquery_table): Synchronize the data types of a Pandas DataFrame with a BigQuery table's schema
@@ -28,7 +28,7 @@ Provides methods to interact with Google resources sucha as Sheets and BigQuery,
 
 > [!NOTE]
 > ```py
-> from dta.google.sheets import <FUNCTION>
+> from quati.google.sheets import <FUNCTION>
 > ```
 
 - [`gsheets_get_worksheet()`](google.md#gsheets_get_worksheet): Import a worksheet object from gsheets
@@ -42,7 +42,7 @@ Provides methods to send alerts and informations via email from just a few lines
 
 > [!NOTE]
 > ```py
-> from dta.messenger.gmail import <FUNCTION>
+> from quati.messenger.gmail import <FUNCTION>
 > ```
 
 - [`send_alert_email()`](messenger.md#send_alert_email): Send an email (Types: error, tip, note, important or warning) with main info about it
@@ -52,7 +52,7 @@ Defines constants and functions for managing ETL (Extract, Transform, Load) proc
 
 > [!NOTE]
 > ```py
-> from dta.header.manager import <ITEM>
+> from quati.header.manager import <ITEM>
 > ```
 
 [`Text Constants for ETL Phases` • `Google Sheets API Scope` • `Date and Time` • `Paths and File Locations` • `Database Connection` • `Data Sources` • `Miscellaneous Constants` • `Logging Levels` • `Email Configuration` • `ETL Process Status` • `Data Formats and Locations` • `ETL Configuration` • `Error Handling` • `Throttling and Rate Limits` • `Security` • `Data Export and Serialization` • `File Encoding` • `Data Validation` • `AWS S3 Paths` • `Encryption` • `Data Export Formats` • `Data Backup` • `Data Sampling`](header.md)
@@ -62,7 +62,7 @@ This Python file defines error and success messages, log levels, and ETL process
 
 > [!NOTE]
 > ```py
-> from dta.logger.manager import <LOG_MESSAGE>
+> from quati.logger.manager import <LOG_MESSAGE>
 > ```
 
 [`Error`](logger.md#error) • [`Success`](logger.md#success) • [`ETL Process Status`](logger.md#etl-process-status)
@@ -72,7 +72,7 @@ Provides several methods to use system functionality from just a few lines of co
 
 > [!NOTE]
 > ```py
-> from dta.system.linux_utils import <FUNCTION>
+> from quati.system.linux_utils import <FUNCTION>
 > ```
 
 - [`delete_file()`](system.md#delete_file): Deletes any specified file
@@ -88,7 +88,7 @@ Provides a set of tools for automating browser interactions, allowing you to per
 
 > [!NOTE]
 > ```py
-> from dta.scrapping.selenium import <FUNCTION>
+> from quati.scrapping.selenium import <FUNCTION>
 > ```
 
 - [`start_browser()`](scrapping.md#start_browser): Initialize a Chrome browser using Selenium
