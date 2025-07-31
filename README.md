@@ -10,7 +10,7 @@
 <h1>quati: A python <u>Quick Actions Toolkit</u> for data engeneering</h1>
 
 
-<img src="https://img.shields.io/badge/Version-1.1.1-white.svg"> <img src="https://img.shields.io/badge/Author-lucaslealll-blue?logo=github&logoColor=white"> <img src="https://img.shields.io/badge/Status-Published-25be3eff"> <img src="https://img.shields.io/badge/License-MIT-750014.svg">
+<img src="https://img.shields.io/badge/Version-1.1.1--beta-white.svg"> <img src="https://img.shields.io/badge/Author-lucaslealll-blue?logo=github&logoColor=white"> <img src="https://img.shields.io/badge/Status-Beta-DF1F72"> <img src="https://img.shields.io/badge/License-MIT-750014.svg">
 <br>
 <img src="https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=fff"> <img src="https://img.shields.io/badge/Code Style-Black Formatter-111.svg"> 
 </div>
