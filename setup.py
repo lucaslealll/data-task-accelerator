@@ -5,8 +5,8 @@ with io.open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="quati_tookit",
-    version="1.1.0",
+    name="quati_toolkit",
+    version="1.1.1",
     author="Lucas Leal",
     author_email="lucas.o.a.l.zst@gmail.com",
     description="Dynamic data eng. functions to accelerate development and coding",
