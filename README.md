@@ -21,9 +21,9 @@ a wide range of collections to accelerate development. It has a comprehensive an
 flexible ecosystem of **tools**, **libraries**, and **community resources**,
 allowing data engineers to build and deploy applications with ease.
 
-## Table of Contents
+<h2>Table of Contents</h2><br>
+
 - [What is it?](#what-is-it)
-- [Table of Contents](#table-of-contents)
 - [Main Features](#main-features)
 - [Where to get it / Install](#where-to-get-it--install)
 - [Documentation](#documentation)
