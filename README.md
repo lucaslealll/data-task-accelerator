@@ -8,7 +8,7 @@
 	<hr>
 <h1>quati: A python <u>Quick Actions Toolkit</u> for data engeneering</h1>
 
-<img src="https://img.shields.io/badge/Version-1.1.2--beta-white.svg"> <img src="https://img.shields.io/badge/Author-lucaslealll-blue?logo=github&logoColor=white"> <img src="https://img.shields.io/badge/Status-Beta-DF1F72"> <img src="https://img.shields.io/badge/License-MIT-750014.svg">
+<img src="https://img.shields.io/badge/Version-1.1.5--beta-white.svg"> <img src="https://img.shields.io/badge/Author-lucaslealll-blue?logo=github&logoColor=white"> <img src="https://img.shields.io/badge/Status-Beta-DF1F72"> <img src="https://img.shields.io/badge/License-MIT-750014.svg">
 <br>
 <img src="https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=fff"> <img src="https://img.shields.io/badge/Code Style-Black Formatter-111.svg"> 
 </div>
@@ -64,9 +64,13 @@ The source code is currently hosted on GitHub at: https://github.com/lucaslealll
 > pip install --upgrade pip
 > ```
 -->
+```sh
+# PyPI
+pip install quati-toolkit
+```
 
 ```sh
-# GitHub
+# or GitHub
 pip install git+https://github.com/lucaslealll/quati-toolkit.git
 ```
 
