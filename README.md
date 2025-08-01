@@ -1,14 +1,14 @@
 <div align="center">
 	<picture>
 	<!-- <source media="(prefers-color-scheme: dark)" srcset="assets/quati_white.svg"> -->
-	<source media="(prefers-color-scheme: dark)" srcset="assets/quati.svg">
-		<img rc="assets/quati.svg" width="100%">
+	<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucaslealll/quati-toolkit/refs/heads/main/assets/quati.svg">
+		<img src="https://raw.githubusercontent.com/lucaslealll/quati-toolkit/refs/heads/main/assets/quati.svg" width="100%">
 	</picture>
 	<br><br><br>
 	<hr>
 <h1>quati: A python <u>Quick Actions Toolkit</u> for data engeneering</h1>
 
-<img src="https://img.shields.io/badge/Version-1.1.1--beta-white.svg"> <img src="https://img.shields.io/badge/Author-lucaslealll-blue?logo=github&logoColor=white"> <img src="https://img.shields.io/badge/Status-Beta-DF1F72"> <img src="https://img.shields.io/badge/License-MIT-750014.svg">
+<img src="https://img.shields.io/badge/Version-1.1.2--beta-white.svg"> <img src="https://img.shields.io/badge/Author-lucaslealll-blue?logo=github&logoColor=white"> <img src="https://img.shields.io/badge/Status-Beta-DF1F72"> <img src="https://img.shields.io/badge/License-MIT-750014.svg">
 <br>
 <img src="https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=fff"> <img src="https://img.shields.io/badge/Code Style-Black Formatter-111.svg"> 
 </div>
