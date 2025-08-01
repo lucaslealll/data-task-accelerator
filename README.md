@@ -8,9 +8,11 @@
 	<hr>
 <h1>quati: A python <u>Quick Actions Toolkit</u> for data engeneering</h1>
 
-<img src="https://img.shields.io/badge/Version-1.1.5--beta-white.svg"> <img src="https://img.shields.io/badge/Author-lucaslealll-blue?logo=github&logoColor=white"> <img src="https://img.shields.io/badge/Status-Beta-DF1F72"> <img src="https://img.shields.io/badge/License-MIT-750014.svg">
+<img src="https://img.shields.io/badge/Author-lucaslealll-blue?logo=github&logoColor=white"> <img src="https://img.shields.io/badge/Status-Beta-DF1F72"> <img src="https://img.shields.io/badge/License-MIT-750014.svg">
 <br>
-<img src="https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=fff"> <img src="https://img.shields.io/badge/Code Style-Black Formatter-111.svg"> 
+<img src="https://img.shields.io/pypi/v/quati-toolkit.svg?label=Version&color=white"> <img src="https://img.shields.io/pypi/pyversions/quati-toolkit?logo=python&logoColor=white&label=Python"> <img src="https://img.shields.io/badge/Code Style-Black Formatter-111.svg"> 
+<br>
+<img src="https://img.shields.io/pypi/dm/quati-toolkit.svg?label=PyPI Downloads"> 
 </div>
 
 ## What is it?
@@ -64,15 +66,16 @@ The source code is currently hosted on GitHub at: https://github.com/lucaslealll
 > pip install --upgrade pip
 > ```
 -->
-```sh
-# PyPI
-pip install quati-toolkit
-```
-
-```sh
-# or GitHub
-pip install git+https://github.com/lucaslealll/quati-toolkit.git
-```
+- [PyPI](https://pypi.org/project/quati-toolkit/)
+	```sh
+	# PyPI
+	pip install quati-toolkit
+	```
+- GitHub
+	```sh
+	# or GitHub
+	pip install git+https://github.com/lucaslealll/quati-toolkit.git
+	```
 
 ## Documentation
 The official documentation is here [Documentation](doc/DOCUMENTATION.md).
