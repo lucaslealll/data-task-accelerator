@@ -19,7 +19,7 @@
 **quati** provides dynamic functions aimed at data engineering, offering
 a wide range of collections to accelerate development. It has a comprehensive and
 flexible ecosystem of **tools**, **libraries**, and **community resources**,
-allowing data engineers to build and deploy applications with ease.
+allowing data engineers to easily build and deploy applications.
 
 <h2>Table of Contents</h2><br>
 
