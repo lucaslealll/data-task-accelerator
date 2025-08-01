@@ -3,7 +3,7 @@ requires = ["setuptools>=61", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "quati_toolkit"
+name = "quati"
 version = "1.1.6-beta"
 description = "Dynamic data eng. functions to accelerate development and coding"
 readme = "README.md"
@@ -37,7 +37,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/lucaslealll/quati-toolkit"
+Homepage = "https://github.com/quati-dev/quati"
 
 [tool.setuptools]
 packages = ["quati"]

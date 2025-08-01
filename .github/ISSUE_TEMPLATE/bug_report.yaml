@@ -14,7 +14,7 @@ body:
           required: true
         - label: >
             I have confirmed this bug exists on the
-            [latest version](https://github.com/lucaslealll/quati-toolkit) of quati.
+            [latest version](https://github.com/quati-dev/quati) of quati.
           required: true
         - label: >
             I have confirmed this bug exists on the main branch of quati.

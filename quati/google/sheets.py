@@ -176,9 +176,9 @@ def open_worksheet_with_retries(gc, spreadsheet, worksheet, retries=5, sleep_tim
         Exception: If the function fails to open the worksheet after the specified number of retries.
 
     Example:
-        Get spreadsheet named "Planilha do Lucas Godoi" on worksheet "Aba teste".
+        Get spreadsheet named "Planilha do Fulano" on worksheet "Aba teste".
 
-        worksheet = open_worksheet_with_retries(gc, "Planilha do Lucas Godoi", "Aba Teste")
+        worksheet = open_worksheet_with_retries(gc, "Planilha do Fulano", "Aba Teste")
     """
     attempts = 0
     while attempts < retries:

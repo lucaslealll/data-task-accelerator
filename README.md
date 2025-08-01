@@ -1,8 +1,8 @@
 <div align="center">
 	<picture>
 	<!-- <source media="(prefers-color-scheme: dark)" srcset="assets/quati_white.svg"> -->
-	<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucaslealll/quati-toolkit/refs/heads/main/assets/quati.svg">
-		<img src="https://raw.githubusercontent.com/lucaslealll/quati-toolkit/refs/heads/main/assets/quati.svg" width="100%">
+	<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/quati-dev/quati/refs/heads/main/assets/quati.svg">
+		<img src="https://raw.githubusercontent.com/quati-dev/quati/refs/heads/main/assets/quati.svg" width="100%">
 	</picture>
 	<br><br><br>
 	<hr>
@@ -10,9 +10,9 @@
 
 <img src="https://img.shields.io/badge/Author-lucaslealll-blue?logo=github&logoColor=white"> <img src="https://img.shields.io/badge/Status-Beta-DF1F72"> <img src="https://img.shields.io/badge/License-MIT-750014.svg">
 <br>
-<img src="https://img.shields.io/pypi/v/quati-toolkit.svg?label=Version&color=white"> <img src="https://img.shields.io/pypi/pyversions/quati-toolkit?logo=python&logoColor=white&label=Python"> <img src="https://img.shields.io/badge/Code Style-Black Formatter-111.svg"> 
+<img src="https://img.shields.io/pypi/v/quati.svg?label=Version&color=white"> <img src="https://img.shields.io/pypi/pyversions/quati?logo=python&logoColor=white&label=Python"> <img src="https://img.shields.io/badge/Code Style-Black Formatter-111.svg"> 
 <br>
-<img src="https://img.shields.io/pypi/dm/quati-toolkit.svg?label=PyPI Downloads"> 
+<img src="https://img.shields.io/pypi/dm/quati.svg?label=PyPI Downloads"> 
 </div>
 
 ## What is it?
@@ -29,7 +29,6 @@ allowing data engineers to easily build and deploy applications.
 - [Documentation](#documentation)
 - [License](#license)
 - [Dependencies](#dependencies)
-- [References](#references)
 
 ## Main Features
 Here are just a few of the things that pandas does well:
@@ -56,7 +55,7 @@ Here are just a few of the things that pandas does well:
 - [`esc_or_click()`](doc/scrapping.md#esc_or_click): Function to either press the ESC key or click on an element on a web page
 
 ## Where to get it / Install
-The source code is currently hosted on GitHub at: https://github.com/lucaslealll/quati-toolkit
+The source code is currently hosted on GitHub at: https://github.com/quati-dev/quati
 
 <!-- 
 > [!IMPORTANT]
@@ -66,15 +65,15 @@ The source code is currently hosted on GitHub at: https://github.com/lucaslealll
 > pip install --upgrade pip
 > ```
 -->
-- [PyPI](https://pypi.org/project/quati-toolkit/)
+- [PyPI](https://pypi.org/project/quati/)
 	```sh
 	# PyPI
-	pip install quati-toolkit
+	pip install quati
 	```
 - GitHub
 	```sh
 	# or GitHub
-	pip install git+https://github.com/lucaslealll/quati-toolkit.git
+	pip install git+https://github.com/quati-dev/quati.git
 	```
 
 ## Documentation
@@ -90,11 +89,6 @@ The official documentation is here [Documentation](doc/DOCUMENTATION.md).
 - [gspread](https://docs.gspread.org/)
 
 See the [full installation instructions](INSTALLATION.md) for minimum supported versions of required, recommended and optional dependencies.
-
-## References
-- WHITTLE, Michael. How to create a Python trading library: My first Python library using EOD Historical Data (EODHD APIs). Medium - Plain English. Available at: https://python.plainenglish.io/create-a-python-trading-library-719a471bb367.
-- EISINGA, Kia. How to create a Python library. Medium - Analytics Vidhya. Available at: https://medium.com/analytics-vidhya/how-to-create-a-python-library-7d5aea80cc3f.
-- GATHUKU, Kevin Ndung'u. Testing Python applications with Pytest. Semaphore. April 3, 2024. Available at: https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest.
 
 <hr>
 
