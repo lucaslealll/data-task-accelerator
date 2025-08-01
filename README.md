@@ -1,3 +1,5 @@
+<div style="font-family: 'Outfit'">
+
 <div align="center">
 	<picture>
 	<!-- <source media="(prefers-color-scheme: dark)" srcset="assets/quati_white.svg"> -->
@@ -93,3 +95,5 @@ See the [full installation instructions](INSTALLATION.md) for minimum supported 
 <hr>
 
 [⇧ Go to Top](#table-of-contents)
+
+</div>
