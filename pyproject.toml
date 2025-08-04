@@ -4,18 +4,21 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "quati"
-version = "1.1.6-beta"
+version = "1.1.7-beta"
 description = "Dynamic data eng. functions to accelerate development and coding"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
+
 authors = [
-  { name = "lucaslealll"}
+  { name = "lucaslealll" }
 ]
+
 keywords = [
   "quick", "actions", "toolkit", "functions", "gspread", "datetime",
   "gsheets", "email", "selenium", "cookies", "sleep", "wait"
 ]
+
 classifiers = [
   "Development Status :: 4 - Beta",
   "Intended Audience :: Developers",
@@ -39,12 +42,12 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/quati-dev/quati"
 
-[tool.setuptools]
-packages = ["quati"]
-include-package-data = true
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["quati*"]
 
-[tool.setuptools.package-data]
-quati = ["src/*"]
+[tool.setuptools]
+include-package-data = true
 
 [tool.pytest.ini_options]
 minversion = "6.0"
