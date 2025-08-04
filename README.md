@@ -50,11 +50,11 @@ Here are just a few of the things that pandas does well:
 - [`search_file()`](doc/system.md#search_file): Searches for the existence of a file
 - [`progress_bar()`](doc/system.md#progress_bar): Waits for the specified number of seconds with an optional progress bar
 - [`get_system_info()`](doc/system.md#get_system_info): Retrieves system information using the 'uname -a' command
-- [`start_browser()`](doc/scrapping.md#start_browser): Initialize a Chrome browser using Selenium
-- [`export_cookies()`](doc/scrapping.md#export_cookies): Export cookies from browser
-- [`import_cookies()`](doc/scrapping.md#import_cookies): Import cookies to browser
-- [`check_element()`](doc/scrapping.md#check_element): Function to check if an element exists on a web page based on the provided XPath
-- [`esc_or_click()`](doc/scrapping.md#esc_or_click): Function to either press the ESC key or click on an element on a web page
+<!-- - [`start_browser()`](doc/scrapping.md#start_browser): Initialize a Chrome browser using Selenium -->
+<!-- - [`export_cookies()`](doc/scrapping.md#export_cookies): Export cookies from browser -->
+<!-- - [`import_cookies()`](doc/scrapping.md#import_cookies): Import cookies to browser -->
+<!-- - [`check_element()`](doc/scrapping.md#check_element): Function to check if an element exists on a web page based on the provided XPath -->
+<!-- - [`esc_or_click()`](doc/scrapping.md#esc_or_click): Function to either press the ESC key or click on an element on a web page -->
 
 ## Where to get it / Install
 The source code is currently hosted on GitHub at: https://github.com/quati-dev/quati

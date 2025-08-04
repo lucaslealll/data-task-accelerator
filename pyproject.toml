@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "quati"
-version = "1.1.7-beta"
+version = "1.1.8-beta"
 description = "Dynamic data eng. functions to accelerate development and coding"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -15,8 +15,7 @@ authors = [
 ]
 
 keywords = [
-  "quick", "actions", "toolkit", "functions", "gspread", "datetime",
-  "gsheets", "email", "selenium", "cookies", "sleep", "wait"
+  "quick", "actions", "toolkit", "functions"
 ]
 
 classifiers = [
