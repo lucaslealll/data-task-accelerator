@@ -40,7 +40,7 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://pypi.org/project/quati"
-Documentation = "https://github.com/quati-dev/quati/blob/main/doc/DOCUMENTATION.md
+Documentation = "https://github.com/quati-dev/quati/blob/main/doc/DOCUMENTATION.md"
 Repository = 'https://github.com/quati-dev/quati'
 
 [tool.setuptools.packages.find]
