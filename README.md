@@ -14,7 +14,9 @@
 <br>
 <img src="https://img.shields.io/pypi/v/quati.svg?label=Version&color=white"> <img src="https://img.shields.io/pypi/pyversions/quati?logo=python&logoColor=white&label=Python"> <img src="https://img.shields.io/badge/Code Style-Black Formatter-111.svg"> 
 <br>
-<img src="https://img.shields.io/pypi/dm/quati.svg?label=PyPI Downloads"> 
+<img src="https://static.pepy.tech/badge/quati">
+<!-- <img src="https://img.shields.io/pypi/dm/quati.svg?label=PyPI Downloads"> -->
+
 </div>
 
 ## What is it?
